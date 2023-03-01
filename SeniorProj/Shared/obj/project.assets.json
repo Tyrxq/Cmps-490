@@ -9975,19 +9975,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Salsa\\.nuget\\packages\\": {}
+    "C:\\Users\\zoies\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
       "projectName": "SeniorProj.Shared",
-      "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
-      "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+      "packagesPath": "C:\\Users\\zoies\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\zoies\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -10054,7 +10054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
