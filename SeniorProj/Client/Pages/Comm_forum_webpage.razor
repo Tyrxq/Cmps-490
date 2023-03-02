@@ -1,0 +1,40 @@
+<!-- Brennan Bodin INFX 490 Community Forum Webpage 2/19/2023 -->
+
+@page "/forum"
+
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+    <head>
+        <title>Community Forum</title> <!-- webpage title -->
+
+        <meta charset="utf-8" />
+
+        <link href="droplet.css" type="text/css" rel="stylesheet" /> <!-- implementing the css stylesheet for this web page -->
+    </head>
+
+    <body>
+        <div class="newPostBox"> <!-- this class will hold the new post box for the forum page. can list the new message section at the top-->
+            <div class="newPost">
+                User will be able to add new posts here. 
+                <form method="post">
+                    <div><input id="name" placeholder="Name" name="name" type="text" /></div> <!-- the placeholder shows it inside the box; looks cleaner imo -->
+                    <div><input id="message" placeholder="Message" name="message" type="text" /></div>
+                    <div><input id="postzip" placeholder="Zip Code" name="postzip" type="postzip" /></div>
+                <div><input id="submitbutton" type="submit" value="Submit" /></div>
+                </form>
+            </div>
+        </div>
+            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+                Posts made by users will be shown here.
+            </div>
+            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+                And here. 
+            </div>
+            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+                And here. 
+            </div>
+            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+                And here. 
+            </div>
+    </body>
+</html>
