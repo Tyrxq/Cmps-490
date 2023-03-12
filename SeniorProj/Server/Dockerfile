@@ -6,7 +6,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 
-RUN dotnet restore 
+
 COPY . .
 WORKDIR "/src/Server"
 RUN dotnet build  -c Release -o /app/build
