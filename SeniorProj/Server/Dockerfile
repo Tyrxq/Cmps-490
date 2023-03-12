@@ -3,16 +3,14 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
 WORKDIR /src
-COPY . .
+COPY src/*.csproj .
+RUN dotnet restore
+COPY src .
+RUN dotnet publish -c Release -o /publish
 
-RUN dotnet restore "Server/SeniorProj.Server.csproj"
-RUN dotnet build "Server/SeniorProj.Server.csproj" -c Release -o /app/build
-FROM build AS publish
-RUN dotnet publish "Server/SeniorProj.Server.csproj" -c Release -o /app/publish 
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 as runtime
+WORKDIR /publish
+COPY --from=build-env /publish .
 ENTRYPOINT ["dotnet", "SeniorProj.Server.dll"]
