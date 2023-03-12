@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
 WORKDIR /src
-COPY src/*.csproj .
+COPY ["Server/SeniorProj.Server.csproj", "Server/"]
 RUN dotnet restore
 COPY . .
 RUN dotnet publish -c Release -o /publish
