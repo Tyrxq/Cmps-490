@@ -4,7 +4,7 @@ EXPOSE 80
 EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
-WORKDIR /src
+WORKDIR /SeniorProj
 COPY ["Server/SeniorProj.Server.csproj", "Server/"]
 RUN dotnet restore
 COPY . .
