@@ -1,9 +1,28 @@
 ﻿@inherits LayoutComponentBase
+<style>
+    button{
+    float: right;
+    text-align:  center;
+    margin-top:  35px;
+    background: #38B2E3;
+    border-color:  #38B2E2;
+    border-radius:  3px;
+    padding-top: 3px;
+    padding-bottom:  3px;;
+    }
+    
+    .loginlink{
+    color:  white;
+    text-decoration:  none;
+    }
+    
+</style>
+
 
 <div class="container-fluid">
-    <a href="">Droplet Logo</a>
+    <img src="DropletLogo.jpg" alt="Droplet Logo" height="100" width="330">
     <button type="button">
-        <NavLink class="nav-link" href="login">
+        <NavLink class="loginlink" href="login">
             Sign up/Log in
         </NavLink>
     </button>
