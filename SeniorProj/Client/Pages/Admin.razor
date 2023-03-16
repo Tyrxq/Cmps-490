@@ -1,0 +1,81 @@
+@page "/Admin"
+
+<style>
+h1{
+text-align:  center;
+
+
+}
+ .adminwrapper{
+   text-align:  center;
+ 
+ }
+ 
+ #AdminForm{
+  text-align:  left;
+  padding-right:  27%;
+  padding-left: 27%;
+ }
+ 
+ input[type=text]{
+  width:  100%;
+  padding: 12px 12px;
+  border-radius:  3px;
+ }
+ 
+ textarea{
+  width:  100%;
+  height:  150px;
+  border-radius:  3px;
+  resize: none;
+ }
+ 
+ input[type=submit]{
+  background-color: #38B2E3;
+  color:  white;
+  text-decoration:  none;
+  border-color:  #38B2E3;
+  padding:  12px 25px;
+  border-radius:  3px;
+  text-align: center;
+  margin-left:  45%;
+  margin-right:  45%;
+ }
+ 
+</style>
+
+<body>
+<div class="adminwrapper">
+<h1>Administrator</h1>
+<div id="AdminForm">
+    <form action="#" method="POST">
+        <label for="area_affected">Select the affected area(s):</label>
+        <input type="checkbox" id="70501" name="70501" value="70501">
+        <label for="70501">70501</label>
+        <input type="checkbox" id="70503" name="70503" value="70503">
+        <label for="70503">70503</label>
+        <input type="checkbox" id="70504" name="70504" value="70504">
+        <label for="70504">70504</label>
+        <input type="checkbox" id="70506" name="70506" value="70506">
+        <label for="70506">70506</label>
+        <input type="checkbox" id="70507" name="70507" value="70507">
+        <label for="70507">70504</label>
+        <input type="checkbox" id="70508" name="70508" value="70508">
+        <label for="70508">70508</label><br><br/>
+        <input type="text" id="company_name" name="company_name" placeholder="Company Name"><br>
+        <label for="company_name">Company Name</label><br><br/>
+        <input type="text" id="time_est" name="time_est" placeholder="Enter a time ex.5:00 pm"><br>
+        <label for="time_est">Estimated repair time</label><br/><br/>
+        <input type="text" id="date_est" name="date_est" placeholder="MM/DD/YY"><br>
+        <label for="date_est">Estimated repair date</label><br><br/>
+        <label for="outage_des">Outage Description:</label><br>
+        <textarea id="outage_des" name="outage_des" rows="5" cols="33" placeholder="Give description of outage ex. Boil water advisory- Boil water for 1 minute before use."></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
+</div>
+</body>
+
+
+
