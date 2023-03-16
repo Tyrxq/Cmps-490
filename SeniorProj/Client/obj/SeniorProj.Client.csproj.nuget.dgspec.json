@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {}
+    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {
+    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
         "projectName": "SeniorProj.Client",
-        "projectPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
-        "packagesPath": "C:\\Users\\zoies\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+        "packagesPath": "C:\\Users\\Tyriq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zoies\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tyriq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
-                "projectPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
+              "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+                "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
               }
             }
           }
@@ -109,17 +109,17 @@
         }
       }
     },
-    "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
         "projectName": "SeniorProj.Shared",
-        "projectPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
-        "packagesPath": "C:\\Users\\zoies\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zoies\\OneDrive\\Documents\\GitHub\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "packagesPath": "C:\\Users\\Tyriq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zoies\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tyriq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
