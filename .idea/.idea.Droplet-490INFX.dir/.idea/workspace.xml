@@ -1,23 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bba98594-cb53-46a8-9e3d-b29661e893c6" name="Changes" comment="" />
+    <list default="true" id="bba98594-cb53-46a8-9e3d-b29661e893c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SeniorProj/Client/wwwroot/DropletLogo cropped.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Droplet-490INFX.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Droplet-490INFX.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Pages/Admin.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Pages/Admin.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Pages/Comm_forum_webpage.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Pages/Comm_forum_webpage.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Pages/Login.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Pages/NaturalDisaster.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Pages/NaturalDisaster.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Pages/Register.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Client.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Client.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/SeniorProj.Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/dotnet.js" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/dotnet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.dll.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Client.pdb.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.dll.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/SeniorProj.Shared.pdb.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/service-worker-assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/service-worker-assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/bin/Debug/net6.0/wwwroot/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/SeniorProj.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/ref/SeniorProj.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/ref/SeniorProj.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/refint/SeniorProj.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/refint/SeniorProj.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/service-worker-assets.js.build" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/service-worker-assets.js.build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/service-worker/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/service-worker/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/SeniorProj.Client.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/SeniorProj.Client.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/SeniorProj.Client.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/SeniorProj.Client.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Client/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Client/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Client.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Client.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Server.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Server.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/bin/Debug/net6.0/SeniorProj.Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/SeniorProj.Server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/SeniorProj.Server.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/SeniorProj.Server.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/SeniorProj.Server.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/SeniorProj.Server.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Server/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Server/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/bin/Debug/net6.0/SeniorProj.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/bin/Debug/net6.0/SeniorProj.Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/bin/Debug/net6.0/SeniorProj.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/bin/Debug/net6.0/SeniorProj.Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/Debug/net6.0/SeniorProj.Shared.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/SeniorProj.Shared.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/SeniorProj.Shared.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/SeniorProj.Shared.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/SeniorProj.Shared.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeniorProj/Shared/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SeniorProj/Shared/obj/project.nuget.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/App.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/Counter.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/FetchData.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/Admin.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/Comm_forum_webpage.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/Index.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Shared/MainLayout.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/Login.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/NaturalDisaster.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Pages/Register.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Shared/MainLayout.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Shared/NavMenu.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/_Imports.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SeniorProj/Client/Shared/SurveyPrompt.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N4987waQDPwzkb4cY45eY1mZM3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Git.Branch.Popup.ShowAllRemotes": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\brenn\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\brenn\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\brenn\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bba98594-cb53-46a8-9e3d-b29661e893c6" name="Changes" comment="" />
+      <created>1678912326577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678912326577</updated>
+      <workItem from="1678912328896" duration="8000" />
+      <workItem from="1678912405358" duration="1029000" />
+      <workItem from="1679007678505" duration="5000" />
+      <workItem from="1679007983321" duration="20000" />
+      <workItem from="1679008037777" duration="55000" />
+      <workItem from="1679008201851" duration="106000" />
+      <workItem from="1679008321864" duration="137000" />
+      <workItem from="1679008781847" duration="1000" />
+      <workItem from="1679008950701" duration="1151000" />
+      <workItem from="1679010396071" duration="114000" />
+      <workItem from="1679520961671" duration="12000" />
+      <workItem from="1679521030843" duration="4871000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
 </project>

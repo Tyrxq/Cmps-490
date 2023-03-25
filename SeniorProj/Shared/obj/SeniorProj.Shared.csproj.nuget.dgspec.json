@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {}
+    "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+    "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
         "projectName": "SeniorProj.Shared",
-        "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
-        "packagesPath": "C:\\Users\\Tyriq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tyriq\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
