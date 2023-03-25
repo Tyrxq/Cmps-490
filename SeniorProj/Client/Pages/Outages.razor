@@ -1,0 +1,42 @@
+@inject IJSRuntime JsRuntime
+@implements IAsyncDisposable 
+
+@page "/outages"
+
+<h3>Outages</h3>
+
+<div id = "map" style ="width:800px; height: 600px;">  </div>
+
+
+
+
+
+
+
+
+
+@code{
+    private IJSObjectReference? module;
+    private string? result;
+    
+    protected override async void OnAfterRender(bool firstRender)
+    {
+       if(firstRender)
+       {
+           module = await JsRuntime.InvokeAsync<IJSObjectReference>("import", "./LoadMap.js");
+           if (module != null)
+           {
+               result = await module.InvokeAsync<string>("load_map");
+           }
+       }
+    }
+
+    async ValueTask IAsyncDisposable.DisposeAsync()
+    {
+        if (module is not null)
+        {
+            await module.DisposeAsync();
+        }
+    }
+
+}
