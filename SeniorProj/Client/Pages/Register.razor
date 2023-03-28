@@ -1,10 +1,14 @@
 @page "/register"
 <style>
 div.container {
-  width: 500px;
+  max-width: 500px;
   margin: auto;
 }
+
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link{color:#fff;background-color:#38B2E3}
+.btn-primary{color:#fff;background-color:#38B2E3;border-color:#38B2E3}.btn-primary:hover{color:#fff;background-color:#3DC2F7;border-color:#3DC2F7}.btn-check:focus+.btn-primary,.btn-primary:focus{color:#fff;background-color:#3DC2F7;border-color:#3DC2F7;box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}.btn-check:active+.btn-primary,.btn-check:checked+.btn-primary,.btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#0a58ca;border-color:#0a53be}.btn-check:active+.btn-primary:focus,.btn-check:checked+.btn-primary:focus,.btn-primary.active:focus,.btn-primary:active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#0d6efd;border-color:#0d6efd}
 </style>
+
 
 <PageTitle>Register</PageTitle>
 
@@ -13,7 +17,7 @@ div.container {
   <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
     <li class="nav-item" role="presentation">
       <a class="nav-link" id="tab-login" data-mdb-toggle="pill" href="login" role="tab"
-         aria-controls="pills-login" aria-selected="false">Login</a>
+         aria-controls="pills-login" aria-selected="false">Log In</a>
     </li>
     <li class="nav-item" role="presentation">
       <a class="nav-link active" id="tab-register" data-mdb-toggle="pill" href="register" role="tab"
@@ -28,13 +32,13 @@ div.container {
       <form>
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="loginName" class="form-control" />
+          <input type="email" id="loginName" class="form-control" placeholder="Email or username"/>
           <label class="form-label" for="loginName">Email or username</label>
         </div>
 
         <!-- Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="loginPassword" class="form-control" />
+          <input type="password" id="loginPassword" class="form-control" placeholder="Password"/>
           <label class="form-label" for="loginPassword">Password</label>
         </div>
 
@@ -55,7 +59,7 @@ div.container {
         </div>
 
         <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+        <button type="submit" class="btn btn-primary btn-block mb-4">Sign In</button>
 
         <!-- Register buttons -->
         <div class="text-center">
@@ -67,37 +71,37 @@ div.container {
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerName" class="form-control" />
+          <input type="text" id="registerName" class="form-control" placeholder="Name"/>
           <label class="form-label" for="registerName">Name</label>
         </div>
 
         <!-- Username input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerUsername" class="form-control" required/>
+          <input type="text" id="registerUsername" class="form-control" required placeholder="Username"/>
           <label class="form-label" for="registerUsername">Username</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="registerEmail" class="form-control" required=""/>
+          <input type="email" id="registerEmail" class="form-control" required="" placeholder="Email"/>
           <label class="form-label" for="registerEmail">Email</label>
         </div>
       
         <!-- Zipcode input -->
         <div class="form-outline mb-4">
-          <input type="zip" id="registerZip" class="form-control" required=""/>
+          <input type="zip" id="registerZip" class="form-control" required="" placeholder="ZIP Code"/>
           <label class="form-label" for="registerZip">ZIP Code</label>
         </div>
       
         <!-- Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerPassword" class="form-control" required=""/>
+          <input type="password" id="registerPassword" class="form-control" required="" placeholder="Password"/>
           <label class="form-label" for="registerPassword">Password</label>
         </div>
 
         <!-- Repeat Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerRepeatPassword" class="form-control" required=""/>
+          <input type="password" id="registerRepeatPassword" class="form-control" required="" placeholder="Repeat password"/>
           <label class="form-label" for="registerRepeatPassword">Repeat password</label>
         </div>
 
