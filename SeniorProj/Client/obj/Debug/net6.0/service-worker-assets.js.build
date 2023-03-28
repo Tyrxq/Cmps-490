@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-\/nUAmixGkjrGiR6+RiKolK0Y7fe6i+AGycMX53Ot2qs=",
+      "hash": "sha256-eZfpCJqag1jBJOQjYmEKOPo5\/S1g52ha7Ddk\/GDOzr4=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -69,12 +69,16 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-QQ2jSKarIGVJeEbMCqQD\/3UTbEq78gjgPaFTsu2IDGE=",
+      "hash": "sha256-2HsiWRW4b\/4fWxm4UZpDkLTrYUxoKn1uHzKQapofeqc=",
       "url": "index.html"
     },
     {
       "hash": "sha256-XhkdOzu4ie14TpbT\/AvI5hD\/Iwcy9FturtwWomTzb64=",
       "url": "Lafayette-LA-Map.jpg"
+    },
+    {
+      "hash": "sha256-uVgyHWRf\/InU05DgwTB8gQG2eYXKXh1ioEbNWyN7ow8=",
+      "url": "LoadMap.js"
     },
     {
       "hash": "sha256-c61LNPPFeioze4wEiZOope9dvUTTu\/fd2nBhNDaYOjE=",
@@ -1773,19 +1777,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-etL7GNiW3CYeuo+Y5bZuNwMuPawH3Y7NyXW4gZTqyjQ=",
+      "hash": "sha256-FIFljKXtT0rL5KDOUo0gctEtGZsuB0LXvsIVAKR+Kk8=",
       "url": "_framework\/SeniorProj.Shared.dll"
     },
     {
-      "hash": "sha256-\/xbBqT4lhGNpV5HcmXGqFiF9XLp3fuXaUjO4tiP3+T4=",
+      "hash": "sha256-\/DiPi15AFUGpphbIHaH2jOI8l1e5PPGUjQtfizSuDlI=",
       "url": "_framework\/SeniorProj.Shared.pdb"
     },
     {
-      "hash": "sha256-iPboldd4u+iYxNtnlumaV\/lKnp1a1hBtSf+yRPAHnyI=",
+      "hash": "sha256-dG\/pIiabgjMFNO7nbEzFV14j0oIK1nKmZd3BGpp0aQA=",
       "url": "_framework\/SeniorProj.Client.dll"
     },
     {
-      "hash": "sha256-udma8Du2QCMML6i1rqiG0hn64AY+tHQcU+Jo+k7GoLM=",
+      "hash": "sha256-QNhguY2wS0rONmonE35t1S5cG1B\/0Z9GVVOpQKPgi\/s=",
       "url": "_framework\/SeniorProj.Client.pdb"
     },
     {
@@ -1793,9 +1797,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-\/zb4Gqzt4dic3lS46GLFscxNlV0mI9471FaZfOgJm9Q=",
+      "hash": "sha256-+P2GFstvb1kUeomdgA8u+JXmO0cE3hH1hwuCsFk4QOQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "hQhPR7fE"
+  "version": "6vWqWXIx"
 };

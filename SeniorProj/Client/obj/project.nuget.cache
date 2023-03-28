@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d67jbxu+EieT2/R5MHo+jZkkD4xDi7mpnDfYFBOcCpLQ6e9/EIeyXQAh1ohoRy8tFeUrhG7xUpwFTd8BmK5C4A==",
+  "dgSpecHash": "yGKMXNVSGTa1sz5XMbe48dqNRmOkUzzszjMcxLUoxLeSjxNZDVxhSKYPK228FR9nFc0Gy4JXvs/T+4vR45rS9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+  "projectFilePath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brenn\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\brenn\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
