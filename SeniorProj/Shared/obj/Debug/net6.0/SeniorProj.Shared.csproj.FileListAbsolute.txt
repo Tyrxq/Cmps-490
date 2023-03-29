@@ -11,7 +11,6 @@ C:\Users\Salsa\Desktop\SeniorProj\Shared\obj\Debug\net6.0\refint\SeniorProj.Shar
 C:\Users\Salsa\Desktop\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.pdb
 C:\Users\Salsa\Desktop\SeniorProj\Shared\obj\Debug\net6.0\ref\SeniorProj.Shared.dll
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.deps.json
-C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.runtimeconfig.json
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.dll
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.pdb
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.csproj.AssemblyReference.cache
@@ -19,11 +18,9 @@ C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\Seni
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.AssemblyInfoInputs.cache
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.AssemblyInfo.cs
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\EFCoreNpgsqlNodaTime.cs
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.dll
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\refint\SeniorProj.Shared.dll
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.pdb
-C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.genruntimeconfig.cache
 C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\ref\SeniorProj.Shared.dll
 C:\Users\zoies\OneDrive\Documents\GitHub\Droplet-490INFX\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.deps.json
 C:\Users\zoies\OneDrive\Documents\GitHub\Droplet-490INFX\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.runtimeconfig.json

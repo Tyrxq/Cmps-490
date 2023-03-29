@@ -1,5 +1,8 @@
 @page "/register"
 @using SeniorProj.Shared
+@using System.Security.Cryptography
+@using System.Security.Principal
+@using Microsoft.CodeAnalysis
 @inject HttpClient Http
 <style>
 div.container {
@@ -74,6 +77,7 @@ div.container {
     @code{
       //create new user instance and variable
       UserDto request = new UserDto();
+      User user = new User();
     }
     <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
       <form>
@@ -115,7 +119,7 @@ div.container {
 
         <!-- Checkbox -->
         <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+          <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck"
                  aria-describedby="registerCheckHelpText" @bind="@request.Notifications"/>
           <label class="form-check-label" for="registerCheck">
             Would you like to sign up for email notifications?
@@ -124,7 +128,9 @@ div.container {
 
         <!-- Submit button -->
         <div class="text-center">
-          <button type="submit" class="btn btn-primary btn-block mb-3" @onclick="@Put" value="Save">Sign up</button>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary btn-block mb-3" @onclick="@Put" value="Save">Sign up</button>
+          </div>
         </div>
       </form>
     </div>
@@ -134,8 +140,21 @@ div.container {
 
 
 @code {
-  //Send User object to the Auth controller in the server
-  protected async Task Put() {
-    await Http.PutAsJsonAsync<UserDto>("UserDto", @request);
+  //Send User object to the User controller in the server
+  protected async Task Put()
+  {
+    if (request.Password1 == request.Password2 && request.Password1!= null)
+    {
+
+  /*SeniorProj.Shared.Helpers.CreatePasswordHash(request.Password1, out byte[] passwordHash, out byte[] passwordSalt);
+
+  //all usernames will be stored as lowercase
+      user.PasswordHash = passwordHash;
+      user.PasswordSalt = passwordSalt;
+*/
+
+      await Http.PutAsJsonAsync("User", request);
+    }
   }
+
 }

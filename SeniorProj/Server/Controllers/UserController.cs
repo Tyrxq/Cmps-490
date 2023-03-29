@@ -1,4 +1,5 @@
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using SeniorProj.Shared;
 
@@ -6,12 +7,12 @@ namespace SeniorProj.Server.Controllers;
 
 
 [ApiController]
-[Route("[controller]")]
-public class AuthController : ControllerBase
+[Microsoft.AspNetCore.Mvc.Route("[controller]")]
+public class UserController : ControllerBase
 {
-    private readonly ILogger<AuthController> _logger;
+    private readonly ILogger<UserController> _logger;
 
-    public AuthController(ILogger<AuthController> logger)
+    public UserController(ILogger<UserController> logger)
     {
         _logger = logger;
     }
@@ -24,8 +25,7 @@ public class AuthController : ControllerBase
             {
                 try
                 {
-                    if (request.Password1 == request.Password2)
-                    {
+                    
                         User newUser = new User();
                         
                         CreatePasswordHash(request.Password1, out byte[] passwordHash, out byte[] passwordSalt);
@@ -42,13 +42,9 @@ public class AuthController : ControllerBase
                         db.Users.Add(newUser); // auto-increment Id
                         db.SaveChanges();
                         return Ok("User registered sucessfully");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Adding {request.Username} failed. Password check failed\n");
-                        return BadRequest("Passwords do not match");
-                    }
-                    
+                        
+                        
+
                 }
                 catch
                 {
