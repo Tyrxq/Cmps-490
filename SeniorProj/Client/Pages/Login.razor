@@ -1,5 +1,6 @@
 @page "/login"
 @using SeniorProj.Shared
+@using NuGet.Protocol
 @inject HttpClient Http
 
 <style>
@@ -63,7 +64,7 @@ color:#fff;background-color:#0d6efd;border-color:#0d6efd
               </div>
 
       <div class="text-center">
-        <button type="submit" class="btn btn-primary btn-block mb-4" @onclick="@LoginUser" value="login">Login</button>
+        <button type="button" class="btn btn-primary btn-block mb-4" @onclick="@LoginUser" value="login">Login</button>
       </div>
 
       <!-- 2 column grid layout -->
@@ -94,6 +95,6 @@ color:#fff;background-color:#0d6efd;border-color:#0d6efd
 @code {
   //Send User object to the Auth controller in the server
   protected async Task LoginUser() {
-    await Http.PutAsJsonAsync<UserLogin>("login", @request);
+    var response = await Http.PostAsJsonAsync("User", @request);
   }
 }

@@ -58,7 +58,7 @@ public class UserController : ControllerBase
         return BadRequest("User registration failed");
     }
     
-    [HttpPost("login")]
+    [HttpPost]
     public async Task<ActionResult<string>> LoginUser(UserLogin request)
     {
         User user = Find(request);
@@ -66,15 +66,18 @@ public class UserController : ControllerBase
         {
             if (!VerifyPasswordHash(request.Password, user.PasswordHash, user.PasswordSalt))
             {
+                Console.Write("Bad password");
                 return BadRequest("Wrong password.");
             }
             
             // create login token now
-            
+
+            Console.WriteLine($"User successfully verified\n");
             return Ok("User login valid");
         }
         else
         {
+            Console.WriteLine("Invalid credentials");
             return BadRequest("Invalid credentials");
         }
     }
