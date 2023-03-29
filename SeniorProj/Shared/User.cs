@@ -9,4 +9,5 @@ public class User
     public string? Email { get; set; }
     public string? PostalCode { get; set; }
     public bool? Notifications { get; set; }
+    public string? Name { get; set; }
 }

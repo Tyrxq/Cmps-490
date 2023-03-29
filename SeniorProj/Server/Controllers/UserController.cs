@@ -35,6 +35,7 @@ public class UserController : ControllerBase
                         newUser.Email = request.Email;
                         newUser.Notifications = request.Notifications;
                         newUser.PostalCode = request.PostalCode;
+                        newUser.Name = request.Name;
 
                         newUser.PasswordHash = passwordHash;
                         newUser.PasswordSalt = passwordSalt;
@@ -42,8 +43,6 @@ public class UserController : ControllerBase
                         db.Users.Add(newUser); // auto-increment Id
                         db.SaveChanges();
                         return Ok("User registered sucessfully");
-                        
-                        
 
                 }
                 catch

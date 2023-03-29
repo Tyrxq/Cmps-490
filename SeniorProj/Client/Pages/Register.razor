@@ -83,37 +83,37 @@ div.container {
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerName" class="form-control" placeholder="Name"/>
+          <input type="text" id="registerName" class="form-control" placeholder="Name" @bind="@request.Name" required=""/>
           <label class="form-label" for="registerName">Name</label>
         </div>
 
         <!-- Username input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerUsername" class="form-control" @bind="@request.Username" required/>
+          <input type="text" id="registerUsername" class="form-control" placeholder="Username" @bind="@request.Username" required/>
           <label class="form-label" for="registerUsername">Username</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="registerEmail" class="form-control" @bind="@request.Email" required=""/>
+          <input type="email" id="registerEmail" class="form-control" placeholder="Email" @bind="@request.Email" required=""/>
           <label class="form-label" for="registerEmail">Email</label>
         </div>
 
         <!-- Zipcode input -->
         <div class="form-outline mb-4">
-          <input type="zip" id="registerZip" class="form-control" @bind="@request.PostalCode" required=""/>
+          <input type="zip" id="registerZip" class="form-control" placeholder="ZIP Code" @bind="@request.PostalCode" required=""/>
           <label class="form-label" for="registerZip">ZIP Code</label>
         </div>
 
         <!-- Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerPassword" class="form-control" @bind="@request.Password1" required=""/>
+          <input type="password" id="registerPassword" class="form-control" placeholder="Password" @bind="@request.Password1" required=""/>
           <label class="form-label" for="registerPassword">Password</label>
         </div>
 
         <!-- Repeat Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerRepeatPassword" class="form-control" @bind="@request.Password2" required=""/>
+          <input type="password" id="registerRepeatPassword" class="form-control" placeholder="Repeat password" @bind="@request.Password2" required=""/>
           <label class="form-label" for="registerRepeatPassword">Repeat password</label>
         </div>
 
@@ -154,6 +154,7 @@ div.container {
 */
 
       await Http.PutAsJsonAsync("User", request);
+
     }
   }
 
