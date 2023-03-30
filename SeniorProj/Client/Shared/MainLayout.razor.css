@@ -1,0 +1,21 @@
+@media (max-width: 858px) {
+
+    button{
+        float: left;
+        text-align:  center;
+        margin-top:  25px;
+        background: #38B2E3;
+        border-color:  #38B2E2;
+        border-radius:  3px;
+        padding-top: 5px;
+        padding-bottom:  5px;;
+    }
+    
+    .dropletlogo{
+        width: 300px;
+        height: 75px;
+    }
+
+}
+
+
