@@ -1,4 +1,9 @@
 @page "/register"
+@using SeniorProj.Shared
+@using System.Security.Cryptography
+@using System.Security.Principal
+@using Microsoft.CodeAnalysis
+@inject HttpClient Http
 <style>
 div.container {
   max-width: 500px;
@@ -67,48 +72,55 @@ div.container {
         </div>
       </form>
     </div>
+
+
+    @code{
+      //create new user instance and variable
+      UserDto request = new UserDto();
+      User user = new User();
+    }
     <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerName" class="form-control" placeholder="Name"/>
+          <input type="text" id="registerName" class="form-control" placeholder="Name" @bind="@request.Name" required=""/>
           <label class="form-label" for="registerName">Name</label>
         </div>
 
         <!-- Username input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerUsername" class="form-control" required placeholder="Username"/>
+          <input type="text" id="registerUsername" class="form-control" placeholder="Username" @bind="@request.Username" required/>
           <label class="form-label" for="registerUsername">Username</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="registerEmail" class="form-control" required="" placeholder="Email"/>
+          <input type="email" id="registerEmail" class="form-control" placeholder="Email" @bind="@request.Email" required=""/>
           <label class="form-label" for="registerEmail">Email</label>
         </div>
-      
+
         <!-- Zipcode input -->
         <div class="form-outline mb-4">
-          <input type="zip" id="registerZip" class="form-control" required="" placeholder="ZIP Code"/>
+          <input type="zip" id="registerZip" class="form-control" placeholder="ZIP Code" @bind="@request.PostalCode" required=""/>
           <label class="form-label" for="registerZip">ZIP Code</label>
         </div>
-      
+
         <!-- Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerPassword" class="form-control" required="" placeholder="Password"/>
+          <input type="password" id="registerPassword" class="form-control" placeholder="Password" @bind="@request.Password1" required=""/>
           <label class="form-label" for="registerPassword">Password</label>
         </div>
 
         <!-- Repeat Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerRepeatPassword" class="form-control" required="" placeholder="Repeat password"/>
+          <input type="password" id="registerRepeatPassword" class="form-control" placeholder="Repeat password" @bind="@request.Password2" required=""/>
           <label class="form-label" for="registerRepeatPassword">Repeat password</label>
         </div>
 
         <!-- Checkbox -->
         <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
-                 aria-describedby="registerCheckHelpText" />
+          <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck"
+                 aria-describedby="registerCheckHelpText" @bind="@request.Notifications"/>
           <label class="form-check-label" for="registerCheck">
             Would you like to sign up for email notifications?
           </label>
@@ -116,10 +128,34 @@ div.container {
 
         <!-- Submit button -->
         <div class="text-center">
-          <button type="submit" class="btn btn-primary btn-block mb-3">Sign up</button>
+          <div class="form-group">
+            <button type="button" class="btn btn-primary btn-block mb-3" @onclick="@Put" value="Save">Sign up</button>
+          </div>
         </div>
       </form>
     </div>
   </div>
 </div>
 <!-- Pills content -->
+
+
+@code {
+  //Send User object to the User controller in the server
+  protected async Task Put()
+  {
+    if (request.Password1 == request.Password2 && request.Password1!= null)
+    {
+
+  /*SeniorProj.Shared.Helpers.CreatePasswordHash(request.Password1, out byte[] passwordHash, out byte[] passwordSalt);
+
+  //all usernames will be stored as lowercase
+      user.PasswordHash = passwordHash;
+      user.PasswordSalt = passwordSalt;
+*/
+
+      await Http.PutAsJsonAsync("User", @request);
+
+    }
+  }
+
+}

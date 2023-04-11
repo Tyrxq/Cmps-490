@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {}
+    "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {
+    "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
         "projectName": "SeniorProj.Client",
-        "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
-        "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+        "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
-                "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
+              "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+                "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
               }
             }
           }
@@ -53,29 +53,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.12, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime": {
-              "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[6.0.13, )"
             }
           },
           "imports": [
@@ -92,7 +80,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.14, 6.0.14]"
+              "version": "[6.0.9, 6.0.9]"
             }
           ],
           "frameworkReferences": {
@@ -100,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -109,17 +97,17 @@
         }
       }
     },
-    "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+    "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
         "projectName": "SeniorProj.Shared",
-        "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
-        "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Current Semester\\INFX 490\\NEW droplet 490\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -142,34 +130,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.12, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -186,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
