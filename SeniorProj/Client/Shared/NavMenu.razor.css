@@ -55,7 +55,7 @@ nav {
 .checkbtn{
   font-size: 30px;
   color: white;
-  float: right;
+  float: left;
   line-height: 90px;
   margin-right: 20px;
   cursor: pointer;
