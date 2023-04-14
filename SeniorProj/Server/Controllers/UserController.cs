@@ -1,7 +1,9 @@
 using System.Security.Cryptography;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using SeniorProj.Shared;
+using MailKit.Net.Smtp;
+using MailKit;
+using MimeKit;
 
 namespace SeniorProj.Server.Controllers;
 
@@ -107,6 +109,26 @@ public class UserController : ControllerBase
             return list[0];
         }
     }
+    public List<string> FindEmails(string[] zips)
+    {
+        List<string> list = new List<string>();
+        using (var db = new UserDbContext())
+        {
+            var userList =
+                from x in db.Users
+                orderby x.Username
+                where (zips.Contains(x.PostalCode) && x.Notifications.Value)
+                select x.Email;
+            foreach (var c in userList)
+                list.Add(c);
+        }
+
+        if (list.Count == 0)
+        {
+            return null;
+        }
+        return list;
+    }
 
 
     private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
@@ -127,7 +149,7 @@ public class UserController : ControllerBase
         }
     }
 
-    [Microsoft.AspNetCore.Mvc.Route("admin/outages")]
+    [Route("admin/outages")]
     [HttpPost]
     public async Task<ActionResult<string>> SubmitOutage(Outage outage)
     {
@@ -140,6 +162,7 @@ public class UserController : ControllerBase
                     db.Outages.Add(outage); // auto-increment Id
                     db.SaveChanges();
                     Console.WriteLine("added outage to db");
+                    SendEmails(outage);
                     return Ok("sucessfully");
 
                 }
@@ -155,6 +178,53 @@ public class UserController : ControllerBase
         return BadRequest("failed");
     }
     
+    public void SendEmails(Outage outage)
+    {
+        var email = new MimeMessage();
+
+        email.From.Add(new MailboxAddress("Droplet", "droplet490@gmail.com"));
+        if (outage.OutageZIP != null)
+        {
+            string[] zips = outage.OutageZIP.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            List<string> emails = FindEmails(zips);
+            if (emails == null)
+            {
+                Console.WriteLine("No emails for affected areas");
+                return;
+            }
+            foreach (var recipient in emails)
+            {
+                //bcc hides other emails from recipients
+                email.Bcc.Add(new MailboxAddress("",recipient));
+            }
+        }
+        else
+        {
+            Console.WriteLine("No zipcodes found");
+            return;
+        }
+        //email.To.Add(new MailboxAddress("Brett", "C00414899@louisiana.edu"));
+
+        email.Subject = "Outage Notification";
+        email.Body = new TextPart(MimeKit.Text.TextFormat.Html)
+        {
+            Text = $"Affected area codes: {outage.OutageZIP}\n" +
+                   $"{outage.Description}\n" +
+                   $"Expected repair time: {outage.RepairDate} {outage.RepairTime}\n"
+        };
+
+        using (var smtp = new SmtpClient())
+        {
+            smtp.Connect("smtp.gmail.com", 587, false);
+
+            // Note: only needed if the SMTP server requires authentication
+            smtp.Authenticate("droplet490@gmail.com", "ucgiexbszllladme");
+
+            smtp.Send(email);
+            smtp.Disconnect(true);
+        }
+        Console.WriteLine("emails sent");
+    }
     
     
     
