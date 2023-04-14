@@ -1,5 +1,7 @@
 @page "/Admin"
 
+@using System.Net.Mail
+
 <style>
 h1{
 text-align:  center;
@@ -48,48 +50,67 @@ text-align:  center;
 
 <body>
 <div class="adminwrapper">
-<h1>Administrator</h1>
-<div id="AdminForm">
- <form action="#" method="POST">
-  <label for="area_affected">Select the affected area(s):</label>  <!-- zip code checkbox select !-->
-  <div class="ck-form">
-  <input class="form-check-input" type="checkbox" id="70501" name="70501" value="70501">
-  <label class="form-check-label" for="70501">70501</label>
-  <input class="form-check-input" type="checkbox" id="70503" name="70503" value="70503">
-   <label class="form-check-label" for="70503">70503</label>
-   <input class="form-check-input" type="checkbox" id="70504" name="70504" value="70504">
-   <label class="form-check-label" for="70504">70504</label><br>
-   <input class="form-check-input" type="checkbox" id="70506" name="70506" value="70506">
-   <label class="form-check-label" for="70506">70506</label>
-   <input class="form-check-input" type="checkbox" id="70507" name="70507" value="70507">
-   <label class="form-check-label" for="70507">70504</label>
-   <input class="form-check-input" type="checkbox" id="70508" name="70508" value="70508">
-  <label class="form-check-label" for="70508">70508</label><br><br/>
-  </div>
-  <div class="form-outline mb-4">
-   <input type="text" id="company_name" class="form-control" name="company_name" placeholder="Company Name">  <!--form fields!-->
-   <label class="form-label" for="company_name">Company Name</label>
-  </div>
-  <div class="form-outline mb-4">
-   <input type="text" id="time_est" class="form-control" name="time_est" placeholder="Enter a time ex.5:00 pm">
-   <label class="form-label" for="time_est">Estimated repair time</label>
-  </div>
-  <div class="form-outline mb-4">
-   <input type="text" id="date_est" class="form-control" name="date_est" placeholder="MM/DD/YY">
-   <label class="form-label" for="date_est">Estimated repair date</label>
-  </div>
-  <div class="form-outline mb-4">
-   <label for="outage_des">Outage Description:</label><br>  <!-- text area for description!-->
-   <textarea id="outage_des" class="form-control" name="outage_des" rows="5" cols="33" placeholder="Give description of outage ex. Boil water advisory- Boil water for 1 minute before use."></textarea><br><br>
-  </div>
-  <div class="cntrbtn">
-  <input type="submit" class="btn btn-primary btn-block mb-4" value="Submit">
-  </div>
- </form>
+ <h1>Administrator</h1>
+ <div id="AdminForm">
+  <form action="#" method="POST">
+   <label for="area_affected">Select the affected area(s):</label>  <!-- zip code checkbox select !-->
+   <div class="ck-form">
+    <input class="form-check-input" type="checkbox" id="70501" name="70501" value="70501">
+    <label class="form-check-label" for="70501">70501</label>
+    <input class="form-check-input" type="checkbox" id="70503" name="70503" value="70503">
+    <label class="form-check-label" for="70503">70503</label>
+    <input class="form-check-input" type="checkbox" id="70504" name="70504" value="70504">
+    <label class="form-check-label" for="70504">70504</label><br>
+    <input class="form-check-input" type="checkbox" id="70506" name="70506" value="70506">
+    <label class="form-check-label" for="70506">70506</label>
+    <input class="form-check-input" type="checkbox" id="70507" name="70507" value="70507">
+    <label class="form-check-label" for="70507">70504</label>
+    <input class="form-check-input" type="checkbox" id="70508" name="70508" value="70508">
+    <label class="form-check-label" for="70508">70508</label><br><br/>
+   </div>
+   <div class="form-outline mb-4">
+    <input type="text" id="company_name" class="form-control" name="company_name" placeholder="Company Name">  <!--form fields!-->
+    <label class="form-label" for="company_name">Company Name</label>
+   </div>
+   <div class="form-outline mb-4">
+    <input type="text" id="time_est" class="form-control" name="time_est" placeholder="Enter a time ex.5:00 pm">
+    <label class="form-label" for="time_est">Estimated repair time</label>
+   </div>
+   <div class="form-outline mb-4">
+    <input type="text" id="date_est" class="form-control" name="date_est" placeholder="MM/DD/YY">
+    <label class="form-label" for="date_est">Estimated repair date</label>
+   </div>
+   <div class="form-outline mb-4">
+    <label for="outage_des">Outage Description:</label><br>  <!-- text area for description!-->
+    <textarea id="outage_des" class="form-control" name="outage_des" rows="5" cols="33" placeholder="Give description of outage ex. Boil water advisory- Boil water for 1 minute before use."></textarea><br><br>
+   </div>
+   <div class="cntrbtn">
+    <input type="submit" class="btn btn-primary btn-block mb-4" value="Submit" @onclick="returnText" @onclick="SendEmail">
+   </div>
+  </form>
 
+ </div>
 </div>
-</div>
+
+     <script src="returnOutageDes.js"></script>
+
 </body>
+
+
+@code {
+ 
+    private void SendEmail()
+    {
+        MailMessage message = new MailMessage();
+        message.From = new MailAddress("droplet490@gmail.com"); /* this can stay fixed to the droplet email */
+        message.To.Add(new MailAddress("brennanj333@gmail.com")); /* THIS IS WHERE I SHOULD PULL FROM THE DATABASE BASED ON THE SELECTED CODE */
+        message.Subject = "Outage Notification";
+        message.Body = $"From: Droplet\n\n{outage_des}"; /*one error is coming from here. not liking the outage_des "variable" */
+
+        SmtpClient smtpClient = new SmtpClient("smtp.example.com");
+        smtpClient.Send(message);
+    }
+}
 
 
 
