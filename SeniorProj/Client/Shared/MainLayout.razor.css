@@ -1,7 +1,7 @@
 @media (max-width: 858px) {
 
     button{
-        float: left;
+        float: right;
         text-align:  center;
         margin-top:  25px;
         background: #38B2E3;
