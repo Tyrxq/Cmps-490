@@ -8,4 +8,5 @@ public class UserDbContext: DbContext
         DbContextOptionsBuilder options) => options.UseSqlite("Data Source=users.db"); 
     //Need to update to correct connection string and test once DB is connected
     public DbSet<User>? Users { get; set; }
+    public DbSet<Outage>? Outages { get; set; }
 }
