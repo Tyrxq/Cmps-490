@@ -14520,19 +14520,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Salsa\\.nuget\\packages\\": {}
+    "C:\\Users\\brenn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+      "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
       "projectName": "SeniorProj.Client",
-      "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
-      "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\obj\\",
+      "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+      "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -14544,8 +14544,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
-              "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
+            "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+              "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
             }
           }
         }
@@ -14598,7 +14598,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[6.0.9, 6.0.9]"
+            "version": "[6.0.14, 6.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -14606,7 +14606,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

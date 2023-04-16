@@ -5,7 +5,7 @@
       "url": "css\/app.css"
     },
     {
-      "hash": "sha256-eZfpCJqag1jBJOQjYmEKOPo5\/S1g52ha7Ddk\/GDOzr4=",
+      "hash": "sha256-Jmee\/Tp3oSThZDUFe6RlMEiByTj\/y\/8A1qjgRvobhfE=",
       "url": "css\/bootstrap\/bootstrap.min.css"
     },
     {
@@ -83,6 +83,14 @@
     {
       "hash": "sha256-c61LNPPFeioze4wEiZOope9dvUTTu\/fd2nBhNDaYOjE=",
       "url": "manifest.json"
+    },
+    {
+      "hash": "sha256-h9j4YZNH\/pixUYlih+XDwVuaLQFllMkU0HAF5LsbHc8=",
+      "url": "returnOutageDes.js"
+    },
+    {
+      "hash": "sha256-BoJo1UOuxXs9Tq7YOPzhDC0SugUzcLJ0BalGrpSfYcw=",
+      "url": "SeniorProj.Client.styles.css"
     },
     {
       "hash": "sha256-1oUwdVR9fjA+\/WA1TZEaL\/GO26WCzaL6WdkaLl3Pnpg=",
@@ -1721,8 +1729,8 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-Azk5sbYFVo84h8NpIst9roIPGLH2y8ewQ9SY\/sUHvgs=",
-      "url": "_framework\/dotnet.6.0.9.diwj9fdt12.js"
+      "hash": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
+      "url": "_framework\/dotnet.6.0.14.1irs3f5atb.js"
     },
     {
       "hash": "sha256-DCornv7RwGmh5F2M7NdY9Sg66xjw779ggSN9nS\/Br5o=",
@@ -1749,19 +1757,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-ekLPKniCf5eu3j0q2DiYBkESCa6i3GC6PiBr+rOI9nU=",
+      "hash": "sha256-ppUrvjvVyxIub\/FtVsx2gjLE0CHX4ZCt6ed45sdnjBg=",
       "url": "_framework\/SeniorProj.Shared.dll"
     },
     {
-      "hash": "sha256-FOKZpp1JcQAp5Za0BKBdLh58Lu+fUjn9sjy2Hs4jisU=",
+      "hash": "sha256-rnRImoHPqZakZeum19zOHF9iSOSg85v5SAK2gANblPc=",
       "url": "_framework\/SeniorProj.Shared.pdb"
     },
     {
-      "hash": "sha256-h41uXOh63EcY4HSqseVeGK+qGCT2\/wz\/G1XbjjL77Jw=",
+      "hash": "sha256-p1MuHOuv94+vaY6Gjs+yAitf8jMDhJNNiq9dINvr2qQ=",
       "url": "_framework\/SeniorProj.Client.dll"
     },
     {
-      "hash": "sha256-0jSfQsiv6sL9QPet6ZlFMBenpFt3kchvlkf\/Z4Cn2hk=",
+      "hash": "sha256-oOTIRqpoc0i2nek6EJj8f671uKO+L0Tgs6r+0IW0ofg=",
       "url": "_framework\/SeniorProj.Client.pdb"
     },
     {
@@ -1769,9 +1777,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-lxW5xuSnMeURY1LojBnLFXpkYNiAmReMWcAH\/bK08OE=",
+      "hash": "sha256-YX7CyEFboS\/JggmojNedRGz75A+ZN7lTvTBD47mP+tM=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "E+Lb3AXL"
+  "version": "FVX85Czb"
 };
