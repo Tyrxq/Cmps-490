@@ -205,12 +205,13 @@ public class UserController : ControllerBase
         }
         //email.To.Add(new MailboxAddress("Brett", "C00414899@louisiana.edu"));
 
-        email.Subject = "Outage Notification";
+        email.Subject = $"Outage Notification";
         email.Body = new TextPart(MimeKit.Text.TextFormat.Html)
         {
-            Text = $"Affected area codes: {outage.OutageZIP}\n" +
-                   $"{outage.Description}\n" +
-                   $"Expected repair time: {outage.RepairDate} {outage.RepairTime}\n"
+            Text = $"The outage details from {outage.CompanyName} are as follows:" + "<br>" + "<br>" + 
+                   $"{outage.Description}" + "<br>" +
+                   $"Expected repair time: {outage.RepairDate} {outage.RepairTime}" + "<br>" + "<br>" + "<br>" + 
+                   $"You have received this message from Droplet because you are subscribed for outage notifications for the following Zip Code(s): {outage.OutageZIP}"    
         };
 
         using (var smtp = new SmtpClient())

@@ -11568,11 +11568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\server\\SeniorProj.Server.csproj",
+      "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Server\\SeniorProj.Server.csproj",
       "projectName": "SeniorProj.Server",
-      "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\server\\SeniorProj.Server.csproj",
+      "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Server\\SeniorProj.Server.csproj",
       "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\server\\obj\\",
+      "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config"

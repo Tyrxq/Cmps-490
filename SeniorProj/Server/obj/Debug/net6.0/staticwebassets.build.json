@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UYfL53/W2Z5ruEl1pseHwcD/qPtwMdSjuQD9dkrZ+Fc=",
+  "Hash": "bcT3/7mUBGIdLTtg9JsQriJ8zQxAvsgM7i/dDAbYKxM=",
   "Source": "SeniorProj.Server",
   "BasePath": "_content/SeniorProj.Server",
   "Mode": "Default",
@@ -14766,6 +14766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manifest.json"
+    },
+    {
+      "Identity": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\wwwroot\\returnOutageDes.js",
+      "SourceId": "SeniorProj.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "returnOutageDes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\returnOutageDes.js"
     }
   ]
 }

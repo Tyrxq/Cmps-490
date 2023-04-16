@@ -2,7 +2,7 @@
 @media (max-width: 858px) {
 
     button[b-r2myml87qf]{
-        float: left;
+        float: right;
         text-align:  center;
         margin-top:  25px;
         background: #38B2E3;
@@ -78,7 +78,7 @@ nav[b-nxleouabg7] {
 .checkbtn[b-nxleouabg7]{
   font-size: 30px;
   color: white;
-  float: right;
+  float: left;
   line-height: 90px;
   margin-right: 20px;
   cursor: pointer;
@@ -115,25 +115,25 @@ nav[b-nxleouabg7]{
     margin-bottom: 25px;
 }
   .navbar ul[b-nxleouabg7]{                  /* ul, li, a will move to expanded area onclick*/
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    max-height: 150px;
     background: #2c3e50;
-    top: 155px;
+    top: 154px;
     left: -100%;
     text-align: center;
     transition: all .5s;
   }
   .navbar ul li[b-nxleouabg7]{
-    display: block;
-    margin: 10% 0;
-    line-height: 30px;
+    display: inline-grid;
+    margin: 1px auto;
+    line-height: 20px;
     text-align: center;
   }
   .navbar ul li a[b-nxleouabg7]{
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
-    margin: auto;
+    margin: 1px auto;
     white-space: nowrap;
     
   }

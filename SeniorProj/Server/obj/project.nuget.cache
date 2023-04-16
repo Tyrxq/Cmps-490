@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TltVGjjhDyBrh4HrBoLIkRPDRwm9Q8rYxSgl0z01qMjoY56nvRtnEGS6cb1mcxG1wnWmWebNRu1MuuKxbJrfwA==",
+  "dgSpecHash": "Kdy4eZ6uTZczA85mQ+Rq4D9iGNyEFqm+Qo36UdwO8I6wYfdMTQnA9Uuw9GcYM9xGHCIVu/rsG/83fW6d2AnZWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Server\\SeniorProj.Server.csproj",
+  "projectFilePath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\server\\SeniorProj.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brenn\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\brenn\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

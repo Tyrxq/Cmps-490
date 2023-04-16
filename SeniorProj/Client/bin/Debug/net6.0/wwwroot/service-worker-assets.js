@@ -85,7 +85,11 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-metEem\/L5s7SZK2Z4UD6MAaZ+yEXUhvB\/hPh0eu1DEU=",
+      "hash": "sha256-h9j4YZNH\/pixUYlih+XDwVuaLQFllMkU0HAF5LsbHc8=",
+      "url": "returnOutageDes.js"
+    },
+    {
+      "hash": "sha256-BoJo1UOuxXs9Tq7YOPzhDC0SugUzcLJ0BalGrpSfYcw=",
       "url": "SeniorProj.Client.styles.css"
     },
     {
@@ -1725,6 +1729,10 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
+      "hash": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
+      "url": "_framework\/dotnet.6.0.14.1irs3f5atb.js"
+    },
+    {
       "hash": "sha256-DCornv7RwGmh5F2M7NdY9Sg66xjw779ggSN9nS\/Br5o=",
       "url": "_framework\/dotnet.timezones.blat"
     },
@@ -1749,19 +1757,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-vrCWO\/SEBiV5Krzm60FB0gm3RfyrosbIiNLlKYdX5uo=",
+      "hash": "sha256-ppUrvjvVyxIub\/FtVsx2gjLE0CHX4ZCt6ed45sdnjBg=",
       "url": "_framework\/SeniorProj.Shared.dll"
     },
     {
-      "hash": "sha256-iFkpBYdxp9u1sg\/hFIPFpYKPSDvfrMRDNZsqgJv0RwY=",
+      "hash": "sha256-rnRImoHPqZakZeum19zOHF9iSOSg85v5SAK2gANblPc=",
       "url": "_framework\/SeniorProj.Shared.pdb"
     },
     {
-      "hash": "sha256-TO0ionJP2emVlgYhC90F32NjYsabzcUWxeoZiUB0to8=",
+      "hash": "sha256-p1MuHOuv94+vaY6Gjs+yAitf8jMDhJNNiq9dINvr2qQ=",
       "url": "_framework\/SeniorProj.Client.dll"
     },
     {
-      "hash": "sha256-UYIxC8CXLPd8O5c46MFLiPWfWPVhq3xaT\/fsETn6i7A=",
+      "hash": "sha256-oOTIRqpoc0i2nek6EJj8f671uKO+L0Tgs6r+0IW0ofg=",
       "url": "_framework\/SeniorProj.Client.pdb"
     },
     {
@@ -1769,13 +1777,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-1f9GTcwkYfEJiOW61pORmyRsUrMXhppS2sxQyoCQI+U=",
+      "hash": "sha256-YX7CyEFboS\/JggmojNedRGz75A+ZN7lTvTBD47mP+tM=",
       "url": "_framework\/blazor.boot.json"
-    },
-    {
-      "hash": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
-      "url": "_framework\/dotnet.6.0.14.1irs3f5atb.js"
     }
   ],
-  "version": "xcYBBW\/d"
+  "version": "FVX85Czb"
 };
