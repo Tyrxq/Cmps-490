@@ -1,6 +1,7 @@
-<!-- Brennan Bodin INFX 490 Community Forum Webpage 2/19/2023 -->
-
 @page "/forum"
+@using SeniorProj.Shared
+@using NuGet.Protocol
+@inject HttpClient Http
 
 <style>
    .cntrbtn{
@@ -67,58 +68,72 @@
 
         <link href="droplet.css" type="text/css" rel="stylesheet" /> <!-- implementing the css stylesheet for this web page -->
     </head>
-
+    @code{
+        Forum request = new Forum();
+    }
     <body>
     <div class="newPostBox">
         <h1>Forum</h1> <!-- this class will hold the new post box for the forum page. can list the new message section at the top-->
         <div class="newPost">
             <form method="post">
-            <div class="form-outline mb-4">
-                <input id="name" class="form-control" placeholder="Name" name="name" type="text"/>
-                <label class="form-label" for="name">Name</label>
-            </div> 
-            <div class="form-outline mb-4">
-                <input id="postzip" class="form-control" placeholder="ZIP Code" name="postzip" type="postzip"/>
-                <label class="form-label" for="postzip">ZIP Code</label>
-            </div>
-            <div class="form-outline mb-4">
-                <label for="message">Message:</label>
-                <textarea id="message" class="form-control" rows="5" cols="33" placeholder="Type your message here." name="message" ></textarea>
-            </div>
+                <div class="form-outline mb-4">
+                    <input id="name" class="form-control" placeholder="Name" name="name" type="text" @bind="@request.Name" />
+                    <label class="form-label" for="name">Name</label>
+                </div> 
+                <div class="form-outline mb-4">
+                    <input id="postzip" class="form-control" placeholder="ZIP Code" name="postzip" type="postzip" @bind="@request.Zip" />
+                    <label class="form-label" for="postzip">ZIP Code</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <label for="message">Message:</label>
+                    <textarea id="message" class="form-control" rows="5" cols="33" placeholder="Type your message here." name="message" @bind="@request.Message" ></textarea>
+                </div>
                 <div class="cntrbtn">
-                    <input type="submit" class="btn btn-primary btn-block mb-4" value="Create Post">
-                </div>   
-            
-        
+                        <input type="submit" class="btn btn-primary btn-block mb-4" value="Create Post">
+                </div>
             </form>
         </div>
     </div>
     <br/>
     <div class="forumposts">
-            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
-                <div class="forum-header">
-                    username, zipcode
-                </div>
-                posts by users will be shown here.
+        @{
+            if (IsPost){
+                string name = Request["name"];
+                string message = Request["message"];
+                int zip = Request["postzip"].AsInt();
+                //INSERT INTO Forum VALUES (@name, @message, @zip)
+            }
+            <text>
+                User: @name<br/>
+                Zip Code @zip<br/>
+                @message
+            </text>
+        }
+
+        <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+            <div class="forum-header">
+                username, zipcode
             </div>
-            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
-                <div class="forum-header">
-                    username, zipcode
-                </div>
-                And here. 
+            posts by users will be shown here.
+        </div>
+        <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+            <div class="forum-header">
+                username, zipcode
             </div>
-            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
-                <div class="forum-header">
-                    username, zipcode
-                </div>
-                And here. 
+            And here.
+        </div>
+        <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+            <div class="forum-header">
+                username, zipcode
             </div>
-            <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
-                <div class="forum-header">
-                    username, zipcode
-                </div>
-                And here. 
+            And here.
+        </div>
+        <div class="postBoxes"> <!-- this class will hold the box for each post made to the forum -->
+            <div class="forum-header">
+                username, zipcode
             </div>
+            And here.
+        </div>
     </div>
     </body>
 </html>
