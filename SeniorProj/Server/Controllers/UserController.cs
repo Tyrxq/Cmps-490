@@ -228,5 +228,50 @@ public class UserController : ControllerBase
     }
     
     
+    // Functions for the forum/reports page
+    [Route("report")]
+    [HttpPost]
+    public async Task<ActionResult<string>> SubmitOutage(ForumPost outage)
+    {
+        if (outage != null) {
+            using (var db = new UserDbContext())
+            {
+                try
+                {
+                    outage.UserId = 1;
+                    Console.WriteLine("trying to add outage to database");
+                    db.ForumPosts.Add(outage); // auto-increment Id
+                    db.SaveChanges();
+                    Console.WriteLine("added outage to db");
+                    return Ok("sucessfully");
+                }
+                catch
+                {
+                    Console.WriteLine($"Adding outage \"{outage.Message}\" failed\n");
+                    return BadRequest("failed");
+                }
+            }
+        }
+        Console.WriteLine("was null");
+
+        return BadRequest("failed");
+    }
+    
+    
+    [HttpGet]
+    public ForumPost[] Get()
+    {
+        List<ForumPost> list = new List<ForumPost>();
+        using (var db = new UserDbContext())
+        {
+            var reportList =
+                from x in db.ForumPosts
+                orderby x.Name
+                select x;
+            foreach (var c in reportList)
+                list.Add(c);
+        }
+        return list.ToArray();
+    }
     
 }
