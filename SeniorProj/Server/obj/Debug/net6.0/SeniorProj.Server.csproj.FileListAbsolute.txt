@@ -1286,3 +1286,6 @@ C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmp
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\server\bin\Debug\net6.0\MailKit.dll
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\server\bin\Debug\net6.0\MimeKit.dll
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\server\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Server\bin\Debug\net6.0\MailKit.dll
+C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Server\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Server\bin\Debug\net6.0\BouncyCastle.Crypto.dll

@@ -7705,3 +7705,6 @@ C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmp
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\Client\obj\Debug\net6.0\refint\SeniorProj.Client.dll
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\Client\obj\Debug\net6.0\SeniorProj.Client.pdb
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\Client\obj\Debug\net6.0\ref\SeniorProj.Client.dll
+C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Client\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Client\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Client\obj\Debug\net6.0\scopedcss\projectbundle\SeniorProj.Client.bundle.scp.css
