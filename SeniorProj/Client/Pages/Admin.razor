@@ -88,19 +88,19 @@ text-align:  center;
     <label class="form-check-label" for="70508">70508</label><br><br/>
    </div>
    <div class="form-outline mb-4">
-    <input type="text" id="company_name" class="form-control" name="company_name" placeholder="Company Name"@bind=@outage.CompanyName>  <!--form fields!-->
-    <label class="form-label" for="company_name">Company Name</label>
+        <label class="form-label" for="company_name">Company Name:</label>
+    <input type="text" id="company_name" class="form-control" name="company_name" placeholder="Company Name"@bind=@outage.CompanyName> <!--form fields!-->
    </div>
    <div class="form-outline mb-4">
+        <label class="form-label" for="time_est">Estimated repair time:</label>
     <input type="text" id="time_est" class="form-control" name="time_est" placeholder="Enter a time ex.5:00 pm" @bind=@outage.RepairTime>
-    <label class="form-label" for="time_est">Estimated repair time</label>
    </div>
    <div class="form-outline mb-4">
+        <label class="form-label" for="date_est">Estimated repair date:</label>
     <input type="text" id="date_est" class="form-control" name="date_est" placeholder="MM/DD/YY" @bind=@outage.RepairDate>
-    <label class="form-label" for="date_est">Estimated repair date</label>
    </div>
    <div class="form-outline mb-4">
-    <label for="outage_des">Outage Description:</label><br>  <!-- text area for description!-->
+    <label for="outage_des">Outage Description:</label>  <!-- text area for description!-->
     <textarea id="outage_des" class="form-control" name="outage_des" rows="5" cols="33" placeholder="Give description of outage ex. Boil water advisory- Boil water for 1 minute before use." @bind=@outage.Description></textarea><br><br>
    </div>
    <div class="cntrbtn">
