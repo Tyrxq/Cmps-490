@@ -37,14 +37,14 @@ div.container {
       <form>
         <!-- Email input -->
         <div class="form-outline mb-4">
+          <label class="form-label" for="loginName">Username:</label>
           <input type="email" id="loginName" class="form-control" placeholder="Email or username"/>
-          <label class="form-label" for="loginName">Email or username</label>
         </div>
 
         <!-- Password input -->
         <div class="form-outline mb-4">
+          <label class="form-label" for="loginPassword">Password:</label>
           <input type="password" id="loginPassword" class="form-control" placeholder="Password"/>
-          <label class="form-label" for="loginPassword">Password</label>
         </div>
 
         <!-- 2 column grid layout -->
@@ -83,38 +83,38 @@ div.container {
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerName" class="form-control" placeholder="Name" @bind="@request.Name" required=""/>
-          <label class="form-label" for="registerName">Name</label>
+                    <label class="form-label" for="registerName">Name:</label>
+          <input type="text" id="registerName" class="form-control" @bind="@request.Name" required=""/>
         </div>
 
         <!-- Username input -->
         <div class="form-outline mb-4">
-          <input type="text" id="registerUsername" class="form-control" placeholder="Username" @bind="@request.Username" required/>
-          <label class="form-label" for="registerUsername">Username</label>
+                    <label class="form-label" for="registerUsername">Username:</label>
+          <input type="text" id="registerUsername" class="form-control" @bind="@request.Username" required/>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="registerEmail" class="form-control" placeholder="Email" @bind="@request.Email" required=""/>
-          <label class="form-label" for="registerEmail">Email</label>
+                    <label class="form-label" for="registerEmail">Email:</label>
+          <input type="email" id="registerEmail" class="form-control" @bind="@request.Email" required=""/>
         </div>
 
         <!-- Zipcode input -->
         <div class="form-outline mb-4">
-          <input type="zip" id="registerZip" class="form-control" placeholder="ZIP Code" @bind="@request.PostalCode" required=""/>
-          <label class="form-label" for="registerZip">ZIP Code</label>
+                    <label class="form-label" for="registerZip">ZIP Code:</label>
+          <input type="zip" id="registerZip" class="form-control" @bind="@request.PostalCode" required=""/>
         </div>
 
         <!-- Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerPassword" class="form-control" placeholder="Password" @bind="@request.Password1" required=""/>
-          <label class="form-label" for="registerPassword">Password</label>
+                    <label class="form-label" for="registerPassword">Password:</label>
+          <input type="password" id="registerPassword" class="form-control" @bind="@request.Password1" required=""/>
         </div>
 
         <!-- Repeat Password input -->
         <div class="form-outline mb-4">
-          <input type="password" id="registerRepeatPassword" class="form-control" placeholder="Repeat password" @bind="@request.Password2" required=""/>
-          <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+                    <label class="form-label" for="registerRepeatPassword">Repeat password:</label>
+          <input type="password" id="registerRepeatPassword" class="form-control" @bind="@request.Password2" required=""/>
         </div>
 
         <!-- Checkbox -->

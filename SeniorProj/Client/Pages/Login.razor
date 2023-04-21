@@ -53,15 +53,15 @@ color:#fff;background-color:#0d6efd;border-color:#0d6efd
   <div class="tab-content">
     <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
       <!-- Username input -->
-              <div class="form-outline mb-4">
-                <input type="text" id="registerUsername" class="form-control" @bind="@request.Username" required/>
-                <label class="form-label" for="registerUsername">Username</label>
-              </div>
+          <div class="form-outline mb-4">
+            <label class="form-label" for="registerUsername">Username:</label>
+            <input type="text" id="registerUsername" class="form-control" @bind="@request.Username" required/>
+          </div>
       <!-- Password input -->
-              <div class="form-outline mb-4">
-                <input type="password" id="registerPassword" class="form-control" @bind="@request.Password" required=""/>
-                <label class="form-label" for="registerPassword">Password</label>
-              </div>
+          <div class="form-outline mb-4">
+            <label class="form-label" for="registerPassword">Password:</label>
+            <input type="password" id="registerPassword" class="form-control" @bind="@request.Password" required=""/>
+          </div>
 
       <div class="text-center">
         <button type="button" class="btn btn-primary btn-block mb-4" @onclick="@LoginUser" value="login">Login</button>
