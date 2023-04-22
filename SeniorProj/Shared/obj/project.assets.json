@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\brenn\\.nuget\\packages\\": {}
+    "C:\\Users\\Salsa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
       "projectName": "SeniorProj.Shared",
-      "projectPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
-      "packagesPath": "C:\\Users\\brenn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brenn\\OneDrive - University of Louisiana Lafayette\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\obj\\",
+      "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+      "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\brenn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
