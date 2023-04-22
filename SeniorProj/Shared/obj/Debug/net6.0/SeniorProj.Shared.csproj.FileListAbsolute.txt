@@ -64,3 +64,15 @@ C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmp
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\refint\SeniorProj.Shared.dll
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.pdb
 C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Documents\GitHub\Cmps-490\SeniorProj\Shared\obj\Debug\net6.0\ref\SeniorProj.Shared.dll
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.deps.json
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.dll
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\bin\Debug\net6.0\SeniorProj.Shared.pdb
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.csproj.AssemblyReference.cache
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.AssemblyInfoInputs.cache
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.AssemblyInfo.cs
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.dll
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\refint\SeniorProj.Shared.dll
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\SeniorProj.Shared.pdb
+C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Shared\obj\Debug\net6.0\ref\SeniorProj.Shared.dll
