@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SeniorProj.Server
 build_property.RootNamespace = SeniorProj.Server
-build_property.ProjectDir = C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Current Semester\INFX 490\NEW droplet 490\Droplet-490INFX\SeniorProj\server\
+build_property.ProjectDir = C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Server\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\brenn\OneDrive - University of Louisiana Lafayette\Current Semester\INFX 490\NEW droplet 490\Droplet-490INFX\SeniorProj\server
+build_property.MSBuildProjectDirectory = C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/brenn/OneDrive - University of Louisiana Lafayette/Current Semester/INFX 490/NEW droplet 490/Droplet-490INFX/SeniorProj/server/Pages/Error.cshtml]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
