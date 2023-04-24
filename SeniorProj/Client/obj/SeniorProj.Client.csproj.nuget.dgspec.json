@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj": {}
+    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj": {
+    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
         "projectName": "SeniorProj.Client",
-        "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\SeniorProj.Client.csproj",
-        "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\SeniorProj.Client.csproj",
+        "packagesPath": "C:\\Users\\Tyriq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tyriq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
-                "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
+              "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+                "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj"
               }
             }
           }
@@ -80,7 +80,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.9, 6.0.9]"
+              "version": "[6.0.14, 6.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -97,17 +97,17 @@
         }
       }
     },
-    "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
+    "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
         "projectName": "SeniorProj.Shared",
-        "projectPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
-        "packagesPath": "C:\\Users\\Salsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Salsa\\Documents\\GitHub\\Cmps-490\\SeniorProj\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\SeniorProj.Shared.csproj",
+        "packagesPath": "C:\\Users\\Tyriq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tyriq\\Droplet-490INFX\\SeniorProj\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Salsa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tyriq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -146,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

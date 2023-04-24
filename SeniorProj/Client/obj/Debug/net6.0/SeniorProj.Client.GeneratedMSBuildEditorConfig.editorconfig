@@ -11,65 +11,65 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = SeniorProj.Client
 build_property.RootNamespace = SeniorProj.Client
-build_property.ProjectDir = C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Client\
+build_property.ProjectDir = C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Salsa\Documents\GitHub\Cmps-490\SeniorProj\Client
+build_property.MSBuildProjectDirectory = C:\Users\Tyriq\Droplet-490INFX\SeniorProj\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/App.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Admin.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Admin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Comm_forum_webpage.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Comm_forum_webpage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tbV9mb3J1bV93ZWJwYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Counter.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/FetchData.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Index.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Login.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/NaturalDisaster.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/NaturalDisaster.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmF0dXJhbERpc2FzdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Outages.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Outages.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3V0YWdlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Pages/Register.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Shared/SurveyPrompt.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/_Imports.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Shared/MainLayout.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r2myml87qf
 
-[C:/Users/Salsa/Documents/GitHub/Cmps-490/SeniorProj/Client/Shared/NavMenu.razor]
+[C:/Users/Tyriq/Droplet-490INFX/SeniorProj/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-nxleouabg7

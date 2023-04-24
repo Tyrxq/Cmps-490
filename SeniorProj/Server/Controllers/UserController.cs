@@ -274,4 +274,23 @@ public class UserController : ControllerBase
         return list.ToArray();
     }
     
+    [Route("Outages")]
+    [HttpGet]
+    public Outage[] GetOutages()
+    {
+        List<Outage> list = new List<Outage>();
+       
+        using (var db = new UserDbContext())
+        {
+            var reportList =
+                from x in db.Outages
+                orderby x.Id
+                select x;
+            foreach (var c in reportList)
+                list.Add(c);
+        }
+        return list.ToArray();
+    }
+    
+    
 }
