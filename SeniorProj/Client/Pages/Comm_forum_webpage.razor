@@ -95,6 +95,14 @@
         margin-bottom: 15px;
     }
     
+    #collapsible::before{
+        content: "\25BC  ";
+    }
+    
+    #trigger:checked ~ #collapsible::before{
+        content: "\25BA  ";    
+    }
+      
     .btn-primary{color:#fff;background-color:#38B2E3;border-color:#38B2E3;}
     .btn-primary:hover{color:#fff;background-color:#3DC2F7;border-color:#3DC2F7}
     .btn-check:focus+.btn-primary,.btn-primary:focus{color:#fff;background-color:#3DC2F7;border-color:#3DC2F7;box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}
