@@ -273,7 +273,7 @@ public class UserController : ControllerBase
         }
         return list.ToArray();
     }
-    
+  
     [Route("Outages")]
     [HttpGet]
     public Outage[] GetOutages()
@@ -291,6 +291,5 @@ public class UserController : ControllerBase
         }
         return list.ToArray();
     }
-    
     
 }
