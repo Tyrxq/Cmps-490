@@ -1,8 +1,13 @@
+using System.Drawing;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Mvc;
 using SeniorProj.Shared;
 using MailKit.Net.Smtp;
 using MailKit;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
 using MimeKit;
 
 namespace SeniorProj.Server.Controllers;
@@ -13,12 +18,19 @@ namespace SeniorProj.Server.Controllers;
 public class UserController : ControllerBase
 {
     private readonly ILogger<UserController> _logger;
-
+    private readonly IConfiguration _configuration;
+    
+    public UserController(IConfiguration configuration, ILogger<UserController> logger)
+    {
+        _configuration = configuration;
+        _logger = logger;
+    }
+/*
     public UserController(ILogger<UserController> logger)
     {
         _logger = logger;
     }
-
+*/
     [HttpPut]
     public async Task<ActionResult<string>> Put(UserDto request)
     {
@@ -65,6 +77,7 @@ public class UserController : ControllerBase
     public async Task<ActionResult<string>> LoginUser(UserLogin request)
     {
         User user = Find(request);
+
         if (user != null)
         {
             if (!VerifyPasswordHash(request.Password, user.PasswordHash, user.PasswordSalt))
@@ -74,9 +87,10 @@ public class UserController : ControllerBase
             }
 
             // create login token now
-
+            string token = CreateToken(user);
             Console.WriteLine($"User successfully verified\n");
-            return Ok("User login valid");
+            Console.WriteLine(token);
+            return Ok(token);
         }
         else
         {
@@ -84,6 +98,30 @@ public class UserController : ControllerBase
             return BadRequest("Invalid credentials");
         }
     }
+
+    private string CreateToken(User user)
+    {
+        List<Claim> claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, user.Username),
+            new Claim(ClaimTypes.Email, user.Email)
+        };
+
+        var key = new SymmetricSecurityKey(
+            System.Text.Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value));
+
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+
+        var token = new JwtSecurityToken(
+            claims: claims,
+            expires: DateTime.Now.AddDays(1),
+            signingCredentials: creds);
+
+        var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+
+        return jwt;
+    }
+    
 
 
     public User? Find(UserLogin request)
@@ -150,7 +188,7 @@ public class UserController : ControllerBase
     }
 
     [Route("admin/outages")]
-    [HttpPost]
+    [HttpPost, Authorize]
     public async Task<ActionResult<string>> SubmitOutage(Outage outage)
     {
         if (outage != null) {
@@ -230,7 +268,7 @@ public class UserController : ControllerBase
     
     // Functions for the forum/reports page
     [Route("report")]
-    [HttpPost]
+    [HttpPost, Authorize]
     public async Task<ActionResult<string>> SubmitOutage(ForumPost outage)
     {
         if (outage != null) {
