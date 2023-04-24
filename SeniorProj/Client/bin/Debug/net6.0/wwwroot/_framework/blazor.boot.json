@@ -260,15 +260,15 @@
       "mscorlib.dll": "sha256-mvS0gmCEk3NPPJPuIX5UWyIRyNxQ4WYYES39CBT9CK0=",
       "netstandard.dll": "sha256-6NXprR7wyUZxpdXxaSPHSoC5uOL5UCc7bsZG3TSuVxE=",
       "System.Private.CoreLib.dll": "sha256-igtwZSR0\/lrbmwL\/XiTsEkIeSL+736GHTZPReYguZCQ=",
-      "SeniorProj.Shared.dll": "sha256-C3QL5c33+c5VOkIngrih57DZi7UPg4Np9RbvAj2RJ\/c=",
-      "SeniorProj.Client.dll": "sha256-T8L2LTV2eL+Icj+YRFl1qDKX1Hau+fFYW\/bak2xgOUw="
+      "SeniorProj.Shared.dll": "sha256-UO7gwPVYQUHk3CG5UmgTl2bhD5gtu7kcw1m91716acg=",
+      "SeniorProj.Client.dll": "sha256-UGRwGoWhYWkxo\/yd1HPbYhmmgsDZMFPoLGUCgslKQAU="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "SeniorProj.Shared.pdb": "sha256-q0m4g18C8gpLYfsuht3k1FDfL1EK6EKye0gv7zxIZbc=",
-      "SeniorProj.Client.pdb": "sha256-1A1AmWpTjd8Qwe49T2Ol\/WIFm9MwxVTgy\/oHbdu083o="
+      "SeniorProj.Shared.pdb": "sha256-GrLGnGcEpFqI6y0bF7GCgaH\/jA0uYuVUPYN3EqjF52E=",
+      "SeniorProj.Client.pdb": "sha256-cL1\/\/JtSUmKDLh\/yCA+yMPz6DFqdoQjuDXHUmdVO2Y0="
     },
     "runtime": {
       "dotnet.6.0.14.uqzv8madmj.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
