@@ -188,6 +188,6 @@
     private ForumPost[]? posts;
     protected override async Task OnInitializedAsync()
     {
-        posts = await Http.GetFromJsonAsync<ForumPost[]>("User");
+        posts = await Http.GetFromJsonAsync<ForumPost[]>("User/posts");
     }
 }

@@ -31,6 +31,17 @@ public class UserController : ControllerBase
         _logger = logger;
     }
 */
+    [HttpGet, Authorize]
+    public ActionResult<string> GetMe()
+    {
+        var userName = User?.Identity?.Name;
+        return Ok(userName);
+    }
+
+
+
+
+
     [HttpPut]
     public async Task<ActionResult<string>> Put(UserDto request)
     {
@@ -40,6 +51,11 @@ public class UserController : ControllerBase
             {
                 try
                 {
+                    //Check if email or username already exists
+                    if (UserExists(request))
+                    {
+                        return BadRequest("User registration failed");
+                    }
 
                     User newUser = new User();
 
@@ -76,7 +92,7 @@ public class UserController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<string>> LoginUser(UserLogin request)
     {
-        User user = Find(request);
+        User user = Find(request.Username);
 
         if (user != null)
         {
@@ -101,10 +117,17 @@ public class UserController : ControllerBase
 
     private string CreateToken(User user)
     {
+        var role = "user";
+        if (user.Username == "admin")
+        {
+            role = "admin";
+        }
         List<Claim> claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, user.Username),
-            new Claim(ClaimTypes.Email, user.Email)
+            new Claim(ClaimTypes.Email, user.Email),
+            new Claim(ClaimTypes.PostalCode, user.PostalCode),
+            new Claim(ClaimTypes.Role, role)
         };
 
         var key = new SymmetricSecurityKey(
@@ -121,10 +144,31 @@ public class UserController : ControllerBase
 
         return jwt;
     }
+
+
+    public bool UserExists(UserDto request)
+    {
+        List<User> list = new List<User>();
+        using (var db = new UserDbContext())
+        {
+            var userList =
+                from x in db.Users
+                where (x.Username == request.Username.ToLower() || x.Email == request.Email)
+                select x;
+            foreach (var c in userList)
+                list.Add(c);
+        }
+        
+        if (list.Count == 0)
+        {
+            return false;
+        }
+
+        return true;
+    }
     
 
-
-    public User? Find(UserLogin request)
+    public User? Find(string username)
     {
         List<User> list = new List<User>();
         using (var db = new UserDbContext())
@@ -132,7 +176,7 @@ public class UserController : ControllerBase
             var userList =
                 from x in db.Users
                 orderby x.Username
-                where x.Username == request.Username.ToLower()
+                where x.Username == username.ToLower()
                 select x;
             foreach (var c in userList)
                 list.Add(c);
@@ -295,7 +339,7 @@ public class UserController : ControllerBase
         return BadRequest("failed");
     }
     
-    
+    [Route("posts")]
     [HttpGet]
     public ForumPost[] Get()
     {
