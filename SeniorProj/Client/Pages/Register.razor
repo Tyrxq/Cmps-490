@@ -4,6 +4,7 @@
 @using System.Security.Principal
 @using Microsoft.CodeAnalysis
 @inject HttpClient Http
+@inject NavigationManager uriHelper
 <style>
 div.container {
   max-width: 500px;
@@ -101,8 +102,15 @@ div.container {
 
         <!-- Zipcode input -->
         <div class="form-outline mb-4">
-                    <label class="form-label" for="registerZip">ZIP Code:</label>
-          <input type="zip" id="registerZip" class="form-control" @bind="@request.PostalCode" required=""/>
+          <label for="zipcode">ZIP Code:</label>
+          <select name="zipCode" id="zipCode" @bind="@request.PostalCode">
+            <option value="70501">70501</option>
+            <option value="70503">70503</option>
+            <option value="70504">70504</option>
+            <option value="70506">70506</option>
+            <option value="70507">70507</option>
+            <option value="70508">70508</option>
+          </select>
         </div>
 
         <!-- Password input -->
@@ -154,6 +162,8 @@ div.container {
 */
 
       await Http.PutAsJsonAsync("User", @request);
+      uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+
 
     }
   }
