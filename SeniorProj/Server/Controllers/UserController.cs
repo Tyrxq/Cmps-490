@@ -266,7 +266,7 @@ public class UserController : ControllerBase
         {
             var reportList =
                 from x in db.ForumPosts
-                orderby x.Name
+                orderby x.Id
                 select x;
             foreach (var c in reportList)
                 list.Add(c);
