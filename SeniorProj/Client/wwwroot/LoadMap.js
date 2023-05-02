@@ -19,7 +19,7 @@ export function load_map() {
                 "coordinates":[30.2701, -92.0371]
             },
             "properties": {
-                "name": "Power outage due to down transformer"
+                "name": "Loss of water pressure due to maintenance repair."
             }
         }
     ];
